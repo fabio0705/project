@@ -19,3 +19,18 @@ div.hero,
   color: yellow;
   background-image: linear-gradient(180deg, rgba(0,0,0,0.3), rgba(0,0,0,0.5))
 }
+.jumbotron {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://assets.entrepreneur.com/content/3x2/2000/20190211153655-GettyImages-1024882748.jpeg?width=1000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: transparent;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: blanchedalmond;
+}
